@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Inter, "SF Pro Display", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", "Roboto Mono", ui-monospace, monospace;
+  --color-ink: #001214;
+  --color-panel: #001f24;
+  --color-panel-soft: #062a31;
+  --color-line: rgba(149, 186, 203, 0.3);
+  --color-copy: #e6f4fa;
+  --color-muted: #9bb0bc;
+  --color-cyan: #08b9ff;
+  --color-blue: #0759df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #001214;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 78% 49%, rgba(5, 92, 180, 0.26), transparent 23rem),
+    radial-gradient(circle at 24% 67%, rgba(0, 102, 156, 0.16), transparent 27rem),
+    #001214;
+  color: #e6f4fa;
+  font-family: Inter, "SF Pro Display", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(8, 185, 255, 0.32);
+  color: #fff;
+}
+
+.section-shell {
+  width: min(100% - 160px, 1280px);
+  margin-inline: auto;
+}
+
+.mono-label {
+  font-family: "SFMono-Regular", "Roboto Mono", ui-monospace, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.outline-word {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 158, 255, 0.23);
+  text-stroke: 1px rgba(0, 158, 255, 0.23);
+}
+
+.fine-grid {
+  background-image:
+    linear-gradient(rgba(28, 155, 226, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 155, 226, 0.08) 1px, transparent 1px);
+  background-size: 68px 68px;
+}
+
+@media (max-width: 768px) {
+  .section-shell {
+    width: min(100% - 32px, 1450px);
+  }
+}
