@@ -2,6 +2,10 @@
 
 Welcome to the Codelinear N7 Landing Page repository. This project is built with a modern, high-performance tech stack utilizing Next.js, React, TypeScript, and Tailwind CSS. It leverages Framer Motion for sophisticated animations and Lucide React for consistent iconography.
 
+<img width="1437" height="709" alt="Screenshot 2026-05-26 at 8 42 20 PM" src="https://github.com/user-attachments/assets/bf27786b-a98a-450b-8d02-5a727d72b008" />
+<img width="2878" height="1422" alt="image" src="https://github.com/user-attachments/assets/55f1f245-4e7e-498c-b63b-71b6714902d3" />
+
+
 ## 🚀 Tech Stack
 
 - **Framework:** Next.js (App Router)
